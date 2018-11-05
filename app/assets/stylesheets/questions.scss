@@ -1,0 +1,33 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  margin:0;
+}
+.wrapper {
+  background-image: linear-gradient(rgba(120,170,120,1), rgba(170,120,120,1));
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.container {
+  height: 50vh;
+  width: 600px;
+  margin: auto auto;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(120,120,120);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
